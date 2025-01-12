@@ -7,10 +7,12 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import Login from './Components/Login';
 import SignUp from './Components/SignUp';
 import Dashboard from './Components/Dashboard';
+import GlobalStyle from './styles/GlobalStyle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+  <GlobalStyle/>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/login" element={<Login />} />
