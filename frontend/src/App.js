@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import Login from './Components/Login';
+// import Login from './Components/Login';
+// import Signup from './Components/SignUp';
 import { useNavigate } from "react-router";
 
 function App() {
   let navigate = useNavigate();
   return (
     <div className="App">
-      <Login />
-  
+      {/* <Login/> */}
 
       <header className="App-header">
         <h1>Welcome to Expense Tracker</h1>
