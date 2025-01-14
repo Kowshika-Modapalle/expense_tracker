@@ -50,7 +50,7 @@ const Login = () => {
             required/>
 
           <button type="submit">Login</button>
-          <button onClick={() => {navigate("/Dashboard")}}>Dashboard</button>
+          {/* <button onClick={() => {navigate("/Dashboard")}}>Dashboard</button> */}
 
     </form>
     
