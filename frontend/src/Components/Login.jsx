@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <div>Login
       <button>SignUp</button>
-      <button onClick={() => {navigate("/Dahboard")}}>Dashboard</button>
+      <button onClick={() => {navigate("/Dashboard")}}>Dashboard</button>
     </div>
   )
 }
